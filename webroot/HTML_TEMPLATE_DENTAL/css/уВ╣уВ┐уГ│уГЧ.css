@@ -1,0 +1,54 @@
+.select_img1 {
+    border-radius: 13px;
+    width: 169px;
+    height: 44px;
+    border: dotted;
+    margin-bottom: 5px;
+}
+p#center {
+    text-align: center;
+    margin-top: -5px;
+}
+#change_width {
+    height: 92px;
+}
+.change_width_input {
+    width: 76px;
+    font-size: 15px;
+    text-align: right;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    padding-right: 9px;
+}
+.hr {
+    clear: both;
+    position: relative;
+    top: -9px;
+    width: 94%;
+    border-top: 1px solid #efefef;
+}
+.target {
+    margin-top: -23px;
+}
+.change_margin {
+    margin-top: -23px;
+}
+.input-group-addon{
+    padding:0px;
+}
+.icon_select {
+    /* width: 250px; */
+    padding: 2px;
+    background-image: url(http://aki.ovh/dl/down.png);
+    background-repeat: no-repeat;
+    background-position: 99.5% center;
+}
+.disable_border,.no_border{
+    border:0 !important;
+}
+.height_select{
+    height: 100px;
+}
+.table>tbody>tr>td{
+    border-top: 3px solid #efefef;
+}

@@ -1,0 +1,103 @@
+img.img-responsive{
+    height: 109px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+}
+.panel {
+    margin-bottom: 30px;
+}
+.change_height{
+    width: 191px;
+    height: 205px;
+}
+@media (min-width: 1200px){
+    .col-lg-3 {
+        width: 212px;
+    }
+
+}
+.page-header{
+    border-bottom:none;
+}
+.col-lg-3.text-center {
+    float: left;
+}
+.font_size {
+    font-size: 100px !important;
+    margin-top: 31px;
+    font-weight: 100;
+}
+.font_size:hover {
+    color: black;
+}
+.change_height{
+    border: 5px solid #cbcbcb;
+    border-radius: 10px;
+    cursor: pointer;
+    /*margin-bottom: 8px;*/
+}
+.change_height:hover {
+    background: #8ac02b;
+}
+.menu-icon {
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url('../images/notice.png');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    margin: 0 auto;
+    padding: 45% 0;
+}
+.change_height:hover .menu-icon{
+    background-position: 100% 60%;
+}
+.change_height:hover p.menu-icon-text{
+    color: #000;
+}
+p.menu-icon-text{
+    white-space: nowrap;
+    color: #373737 !important;
+}
+.icon_customer {
+    background-image: url('../images/customer.png');
+}
+.icon_clock{
+    background-image: url('../images/history.png');
+}
+.icon_copoun{
+    background-image: url('../images/coupon.png');
+}
+.icon_camera{
+    background-image: url('../images/camera.png');
+}
+.icon_mg{
+    background-image: url('../images/mg.png');
+}
+.icon_bell{
+    background-image: url('../images/bell.png');
+}
+.icon_book{
+    background-image: url('../images/book.png');
+}
+.icon_calendar{
+    background-image: url('../images/calendar.png');
+}
+.icon_run{
+    background-image: url('../images/run.png');
+}
+.icon_sun{
+    background-image: url('../images/sun.png');
+}
+.icon_candle{
+    background-image: url('../images/candle.png');
+}
+.icon{
+    height: auto;
+    width: 100%;
+}
+.panel.panel-default{
+    border:0;
+}

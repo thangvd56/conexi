@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>HTML TEMPLATE DENTAL CLINIC</title>
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link href="css/dental.css" rel="stylesheet">
+        <link href="css/userSetting.css" rel="stylesheet"/>
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Navigation -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="title">
+                    <p>Dental Clinic ASP </p><img src="images/header-right.png" class="img_header" alt="image"/>
+                </div>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Sample Clinic</a>
+                </div>
+                <!-- Top Menu Items -->
+                <ul class="nav navbar-right top-nav">
+                    <li ><button class="btn btn-success shadow"><i class="fa fa-file-text-o"></i> プラン</button></li>
+                    <li ><button class="btn btn-success shadow"><i class="fa fa-level-up"></i> アップグレード</button></li>
+                </ul>
+                <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav side-nav" id="scrollbox1">
+                        <li>
+                            <a href="ホーム.html" class="menu_first_child">ホーム</a>
+                        </li>
+                        <li>
+                            <a href="news.html">お知らせ <img src="images/num2.png" class="num_2" alt="image" /></a>
+                        </li>
+                        <li>
+                            <a href="visitRecord.html">来店履歴</a>
+                        </li>
+                        <li>
+                            <a href="顧客台帳.html"> 顧客台帳</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse" data-target="#demo1">通知設定</a>
+                            <ul id="demo1" class="collapse">
+                                <li>
+                                    <a href="NoticeSettings_NewsSettingsPast_Notice.html">お知らせ通知</a>
+                                </li>
+                                <li>
+                                    <a href="NotificationSettings_InitialNotice.html">初回通知</a>
+                                </li>
+                                <li>
+                                    <a href="ReservationAdvanceNotice.html">予約事前通知</a>
+                                </li>
+                                <li>
+                                    <a href="NotificationSetting_LastVisitDateNotice.html">最終来店日通知</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-toggle="collapse" data-target="#demo"> アプリ作成</a>
+                            <ul id="demo" class="collapse">
+                                <li>
+                                    <a href="Appbuild_BasicInfo.html">基本情報</a>
+                                </li>
+                                <li>
+                                    <a href="メニュー.html">メニュー</a>
+                                </li>
+                                <li>
+                                    <a href="photoGallery.html">フォトギャラリー</a>
+                                </li>
+                                <li>
+                                    <a href="スタンプ.html">スタンプ </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">スタッフ情報</a>
+                                </li>
+                                <li>
+                                    <a href="Appbuild_SNS_Share.html">SNSシェア</a>
+                                </li>
+                                <li>
+                                    <a href="Appbuild_TemplateSetting.html">定型文設定</a>
+                                </li>
+                                <li>
+                                    <a href="Appbuild_WebReservation_URLSettings.html">WEB予約URL設定</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="userSetting.html">ユーザー設定</a>
+                        </li>
+                        <li>
+                            <a href="support.html">サポート</a>
+                        </li>
+                        <li>
+                            <a href="logout.html">ログアウト</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+            <div class="scrollbox4 height">
+                <div id="page-wrapper" >
+                    <div class="container-fluid">
+                        <!-- Page Heading -->
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h1 class="page-header">
+                                    ユーザー設定
+                                </h1>
+                                <ol class="breadcrumb">
+                                    <li class="active">
+                                        パスワード変更 <p class="sub_header">ログインしているIDのパスワードを変更する事が出来ます。</p>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8">
+                                <button type="button" class="btn btn-block btn_color" data-toggle="modal" data-target="#modal">パスワード変更</button>
+                            </div>
+                        </div>
+                        <!-- modal 1 -->
+                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content col-md-10">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalLabel">パスワード変更</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="txt1" placeholder="現在のパスワード">
+                                            </div>
+                                            <div class="form-group padding_formgroup">
+                                                <h5> 新しいパスワードは6文字以上で入力してください。</h5>
+                                                <input type="text" class="form-control" id="txt2" placeholder="新しいパスワード">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="txt3" placeholder="新しいパスワード（確認">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="col-xs-6 col-md-6"><button type="button" class="btn btn-block btn_color background" data-dismiss="modal">閉じる</button></div>
+                                        <div class="col-xs-6 col-md-6"><button type="button" class="btn btn-block btn_color">送信</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- modal 2 -->
+                        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content col-md-10">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="modalLabel1">新しいログインIDの追加</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="txt6" placeholder="氏名">
+                                            </div>
+                                            <div class="form-group padding_formgroup">
+                                                <h5> 新しいパスワードは6文字以上で入力してください。</h5>
+                                                <input type="text" class="form-control" id="txt4" placeholder="メールアドレス 例）info@cha-chat.jp">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="txt5" placeholder="パスワード 例）info1234">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <div class="col-xs-6 col-md-6"><button type="button" class="btn btn-block btn_color background" data-dismiss="modal">閉じる</button></div>
+                                        <div class="col-xs-6 col-md-6"><button type="button" class="btn btn-block btn_color">送信</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <h1>ユーザー追加</h1>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8">
+                                <div class="panel radius">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>管理者</td>
+                                            <td>山田太郎</td>
+                                            <td>yamada@tarou.com</td>
+                                            <td>
+                                                <div class="set_margin">
+                                                    <button class="btn btn-success back_color">編集</button>
+                                                    <button class="btn btn-success back_color2">削除</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8">
+                                <div class="panel radius">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <td>管理者</td>
+                                            <td>山田太郎</td>
+                                            <td>yamada@tarou.com</td>
+                                            <td>
+                                                <div class="set_margin">
+                                                    <button class="btn btn-success back_color">編集</button>
+                                                    <button class="btn btn-success back_color2">削除</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8 text-center">
+                                <div class="panel dotted-border">
+                                    <div id="modal1" data-toggle="modal" data-target="#modal2">
+                                        +新しいユーザーを追加
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.container-fluid -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.0/js/bootstrap-toggle.min.js"></script>
+        <script src="js/enscroll.min.js"></script>
+        <script src="js/scroll.js"></script>
+        <script>
+            $('#modal').on('show.bs.modal', function () {
+                var modal = $(this);
+                modal.find('.modal-title').text('パスワード変更');
+            });
+            $('#modal1').on('show.bs.modal', function () {
+                var modal1 = $(this);
+                modal1.find('.modal-title').text('新しいログインIDの追加');
+            });
+        </script>
+    </body>
+</html>

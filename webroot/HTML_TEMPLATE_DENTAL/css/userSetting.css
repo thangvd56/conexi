@@ -1,0 +1,165 @@
+.butt{
+    display: block;
+    margin-top: 15px;
+}
+.back_color {
+    background: #86CB34 !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px #5f9520;
+}
+.back_color2 {
+    margin-left: 23px;
+    background: #5e5e5e !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px rgba(51, 51, 51, 0.89);
+}
+.list_button {
+    position: relative;
+    top: 28px;
+    left: 35px;
+}
+.radius {
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 3px 3px 0px;
+    color: #2c2c2c;
+}
+.set_margin {
+    margin-top: -5px;
+}
+.dotted-border {
+    border: dotted !important;
+    height: 65px;
+    border-radius: 15px;
+    line-height: 2.5;
+    font-size: 25.15px;
+    opacity: .5;
+}
+.panel {
+    border-radius: 15px;
+}
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.modal-content{
+    border-radius: 25px;
+}
+.modal-title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.modal-footer{
+    border: 0;
+    padding: 0px 0px 25px 0px;
+}
+.modal-body{
+    padding:0px 20px 0px 20px;
+}
+.modal-header{
+    border:0;
+}
+.background{
+    background:#424242;
+    box-shadow: 0 7px #2e2e2e;
+}
+.padding_formgroup {
+    padding-top: 20px;
+} .butt{
+    display: block;
+    margin-top: 15px;
+}
+.back_color {
+    background: #86CB34 !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px #5f9520;
+}
+.back_color2 {
+    margin-left: 23px;
+    background: #5e5e5e !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px rgba(51, 51, 51, 0.89);
+}
+.list_button {
+    position: relative;
+    top: 28px;
+    left: 35px;
+}
+.radius {
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 3px 3px 0px;
+    color: #2c2c2c;
+}
+.set_margin {
+    margin-top: -5px;
+}
+.dotted-border {
+    border: dotted !important;
+    height: 65px;
+    border-radius: 15px;
+    line-height: 2.5;
+    font-size: 25.15px;
+    opacity: .5;
+}
+.panel {
+    border-radius: 15px;
+}
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.background{
+    background:#424242;
+    box-shadow: 0 7px #2e2e2e;
+}
+.padding_formgroup {
+    padding-top: 20px;
+}
+.add_border_right {
+    border-right: 2px solid #efefef;
+}
+.well {
+    height: 300px;
+    overflow: auto;
+}
+.question_word {
+    display: inline;
+    font-size: 24px;
+}
+.right{
+    float: right;
+    font-size: 20px;
+    padding-top: 4px;
+}
+.change_style_div{
+    border: 0;
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.card.card-block {
+    padding-left: 55px;
+}
+.collapse.in#collapse1, .collapse.in#collapse2, 
+.collapse.in#collapse3, .collapse.in#collapse4{
+    background: gray;
+    padding: 6px;
+    color: #fff;
+    border-radius: 5px;
+    display: block;
+    margin: -9px 0px 9px 0px;
+}

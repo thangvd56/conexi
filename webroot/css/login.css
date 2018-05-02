@@ -1,0 +1,41 @@
+/*css of page login*/
+body{
+    background:#86cb34;
+}
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.header_login {
+    text-align: center;
+    color: #fff;
+    font-size: 31px;
+}
+.form_login {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.form_login >div{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.color {
+    padding: 13px 71px 10px 71px;
+    border: none;
+    line-height: 1;
+    box-shadow: 0px 5px #b35800;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.forget_pass {
+    opacity: 0.5;
+    font-size: 15px;
+    margin-bottom: 0 !important;
+}

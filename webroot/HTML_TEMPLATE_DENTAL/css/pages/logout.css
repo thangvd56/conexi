@@ -1,0 +1,52 @@
+/*css of page login*/
+body{
+    background:#86cb34;
+}
+.logout {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+.header_logout {
+    text-align: center;
+    color: #fff;
+    font-size: 31px;
+}
+.form_logout {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+}
+.margin_second_button{
+    margin-left: 10px;
+}
+.p_header {
+    text-align: center;
+    font-size: 30px;
+}
+.set_width {
+    border: none;
+    line-height: 1;
+    padding: 15px 60px 12px 65px;
+    box-shadow: 0px 5px #b35800;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.confirmation_info {
+    font-size: 24px;
+    text-align: center;
+    opacity: 0.5;
+}
+.header {
+    margin-left: -80px;
+    line-height: 2;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.p_sub {
+    text-align: center;
+}
+

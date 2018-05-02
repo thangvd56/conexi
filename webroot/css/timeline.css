@@ -1,0 +1,127 @@
+.dhx_cal_navline{
+    text-align: center;
+    font-size: 16px;
+}
+.seat{
+    padding-top: 60px;
+}
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 1px !important;
+}
+.table > thead > tr > th {
+    padding: 7px !important;
+}
+.table > tbody > tr > td {
+    padding: 8.7px !important;
+}
+.dhx_cal_date{
+    display: none;
+}
+.dhx_cal_prev_button, .dhx_cal_next_button{
+    background: #92C47D none repeat scroll 0 0;
+    border-radius: 50%;
+    color: red;
+    height: 34px;
+    width: 37px;
+}
+.dhx_cal_navline{
+    width:400px !important;
+}
+.datePre{
+    background: #92C47D;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    z-index: 1;
+    color: #fff;
+}
+
+.datePre, .dateNext{
+    cursor: pointer;
+}
+.dateNext{
+    background: #92C47D;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    left: 168px;
+    z-index: 1;
+    color: #fff;
+}
+.dateHeader{
+   margin-left: 40px;
+}
+.dateHeaderContainer {
+    margin-top: -27px;
+}
+.dhx_cal_event_line {
+    background: DarkGrey !important;
+}
+.margin-top-12 {
+    margin-top: 12px;
+}
+
+.timeLine0 {
+    color: #000; padding-right: 142px;
+}
+.timeLine1 {
+    color: #000; padding-right: 141px;
+}
+.timeLine2 {
+    color: #000; padding-right: 135px;
+}
+.timeLine3 {
+    color: #000; padding-right: 135px;
+}
+.timeLine4 {
+    color: #000; padding-right: 134px;
+}
+.timeLine5 {
+    color: #000; padding-right: 135px;
+}
+.timeLine6 {
+    color: #000; padding-right: 135px;
+}
+.timeLine7 {
+    color: #000; padding-right: 135px;
+}
+.timeLine8 {
+    color: #000; padding-right: 135px;
+}
+.timeLine9 {
+    color: #000; padding-right: 134px;
+}
+.timeLine10 {
+    color: #000; padding-right: 135px;
+}
+.timeLine11 {
+    color: #000; padding-right: 135px;
+}
+.timeLine12 {
+    color: #000; padding-right: 135px;
+}
+.timeLine13 {
+    color: #000; padding-right: 135px;
+}
+.timeLine14{
+    color: #000; padding-right: 135px;
+}
+.timeLine15 {
+    color: #000; padding-right: 91px;
+    border-right:1px solid #fff !important;
+}
+.timeHeader{
+    border-right: 1px solid #CECECE;
+    display: inline;
+    padding-bottom: 15px;
+}
+.timeHeaderList{
+    position: absolute; top: 29px;
+    border-top: 1px solid #CECECE;
+}
+
+.timeHeaderList{
+    visibility: hidden;
+}

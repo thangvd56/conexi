@@ -1,0 +1,1 @@
+<?php echo CLICK_LINK_TO_RESET_PASSWORD.$this->Html->url(array('controller'=>'users','action'=>'reset_password','?'=>array('token'=>$token)),true);

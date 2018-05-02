@@ -1,0 +1,60 @@
+ul li{
+    display: inline;
+}
+.select_img {
+    margin-bottom: 5px;
+    border-radius: 7px;
+    width: 107px;
+    height: 105px;
+    border: dotted;
+    display: inline-table;
+}
+#center_word {
+    text-align: center;
+    margin-top:2px;
+}
+.show_img {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: rgb(233, 233, 233);
+}
+.sel_img:hover{
+    cursor: pointer;
+}
+
+.profile-pic {
+    position: relative;
+    display: inline-block;
+    top:25px;
+}
+
+.profile-pic:hover .edit {
+    display: block;
+}
+
+.edit {
+    padding-top: 7px;
+    padding-right: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.edit a {
+    color: #000;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.temp_hide{
+    display: none;
+}
+.upload:hover{
+    cursor: pointer;
+}
+.rmv:hover{
+    cursor: pointer;
+}

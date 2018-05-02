@@ -1,0 +1,60 @@
+.col-lg-9{
+    padding-left: 0px;
+}
+.img{
+    margin-top: 40px;;
+}
+#button_toggle {
+    float: right;
+}
+
+#icon-top {
+    margin-top: -130px;
+}
+#icon_down{
+    padding-top: 0px !important;
+}
+.form-control{
+    border: 2px solid #aaaaaa;
+    border-radius: 7px;
+    height:42px;
+
+}
+.form-group {
+    margin-bottom: 4px;
+}
+@media (max-width:1199px){
+    .col-lg-width {
+        padding-left: 136px;
+        margin-top: -108px;
+    }
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width:375px){
+    .panel-body{
+        border-bottom-color: #DED6CF;
+        border-top-color: #DED6CF;
+    }
+}
+@media (max-width:430px){
+    button.btn.btn-success.color {
+        width: 87px;
+        margin-bottom: 9px;
+    }
+}
+@media(max-width:1191px){
+    #icon-top {
+        margin-top: -135px;
+        margin-right: -67px;
+    }
+    #icon_down{
+        margin-top : -2px;
+        margin-right: -67px;
+    }
+   .scroll_bord{
+        top: 80px;
+    }
+} 

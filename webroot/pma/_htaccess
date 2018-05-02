@@ -1,0 +1,4 @@
+AuthName "Login"
+AuthUserFile /var/www/html/app/webroot/pma/.htpasswd
+AuthType Basic
+Require valid-user

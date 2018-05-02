@@ -1,0 +1,21 @@
+.back_color2 {
+    background: #5e5e5e;
+    border: none;
+    width:85px;
+    box-shadow: 0 4px rgba(51, 51, 51, 0.89);
+}
+.butt{
+    display: block;
+    margin-top: 15px;
+}
+.radius {
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 3px 3px 0px;
+    color: #2c2c2c;
+}
+.set_margin {
+    margin-top: -5px;
+    display: inline;
+    float: right;
+}

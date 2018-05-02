@@ -1,0 +1,46 @@
+.modify_height{
+    height: 200px;
+}
+.set_border{
+    height: 50%;
+    border-right: 2px solid #efefef;
+    border-left: 2px solid #efefef;
+    border-bottom: 2px solid #efefef;
+}
+.bottom {
+    height: 50%;
+    border-right: 2px solid #efefef;
+}
+.top {
+    height: 50%;
+    border-bottom: 2px solid #efefef;
+    border-right: 2px solid #efefef;
+}
+.add_border {
+    height: 100%;
+    border-right: 2px solid #efefef;
+}
+.butt{
+    display: block;
+    margin-top: 15px;
+}
+.back_color {
+    background: #86CB34 !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px #5f9520;
+}
+.back_color2 {
+    background: #5e5e5e !important;
+    border: none;
+    padding: 8px 30px 4px 33px;
+    box-shadow: 0 4px rgba(51, 51, 51, 0.89);
+}
+.list_button {
+    position: relative;
+    top: 28px;
+    left: 35px;
+}
+a:hover{
+    text-decoration: none;
+}
